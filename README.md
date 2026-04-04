@@ -32,4 +32,4 @@ A modern and interactive health event planner web application designed to help u
 
 ---
 
-💡 This project is part of my web development practice and showcases UI + functionality design.
+This project is part of my web development practice and showcases UI + functionality design.
