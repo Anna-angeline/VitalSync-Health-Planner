@@ -21,7 +21,7 @@ A modern and interactive health event planner web application designed to help u
 2. Open `index.html` in any browser
 
 ## Output 
-<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/7f40661d-b44c-4be9-90df-f238fb0af2fa" />
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/7f40661d-b44c-4be9-90df-f238fb0af2fa" />
 
 
 ## Future Improvements
