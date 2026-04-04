@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="background-animation"></div>
 
@@ -20,7 +22,7 @@
                 <h1><i class="fa-solid fa-notes-medical"></i> VitalSync</h1>
                 <p>Your Personal Health Assistant & Planner</p>
             </div>
-            
+
             <div class="health-dashboard">
                 <div class="dash-card">
                     <i class="fa-solid fa-calendar-day pulse-icon-blue"></i>
@@ -52,9 +54,10 @@
                 <form id="event-form">
                     <div class="input-group">
                         <label for="eventName">Title</label>
-                        <input type="text" id="eventName" placeholder="e.g., Dr. Smith Appointment, Morning Walk" required autocomplete="off">
+                        <input type="text" id="eventName" placeholder="e.g., Dr. Smith Appointment, Morning Walk"
+                            required autocomplete="off">
                     </div>
-                    
+
                     <div class="input-group">
                         <label for="eventCategory">Category</label>
                         <select id="eventCategory" required>
@@ -80,9 +83,10 @@
 
                     <div class="input-group">
                         <label for="eventNotes">Notes (Optional)</label>
-                        <textarea id="eventNotes" rows="3" placeholder="Symptoms, instructions, or dosage details..."></textarea>
+                        <textarea id="eventNotes" rows="3"
+                            placeholder="Symptoms, instructions, or dosage details..."></textarea>
                     </div>
-                    
+
                     <button type="submit" class="btn-primary">
                         <i class="fa-solid fa-plus-circle"></i> Add Routine
                     </button>
@@ -93,11 +97,13 @@
                 <div class="panel-header">
                     <h2>Health Schedule</h2>
                 </div>
-                
+
                 <div id="eventsContainer" class="events-container">
                     <!-- Events will be injected here by JS -->
                     <div class="empty-state">
-                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/medical-report-4458852-3694035.png?f=webp" alt="Empty schedule" class="empty-img" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC42KSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIHJ5PSIyIj48L3JlY3Q+PGxpbmUgeDE9IjE2IiB5MT0iMiIgeDI9IjE2IiB5Mj0iNiI+PC9saW5lPjxsaW5lIHgxPSI4IiB5MT0iMiIgeDI9IjgiIHkyPSI2Ij48L2xpbmU+PGxpbmUgeDE9IjMiIHkxPSIxMCIgeDI9IjIxIiB5Mj0iMTAiPjwvbGluZT48L3N2Zz4='">
+                        <img src="https://cdni.iconscout.com/illustration/premium/thumb/medical-report-4458852-3694035.png?f=webp"
+                            alt="Empty schedule" class="empty-img"
+                            onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC42KSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxyZWN0IHg9IjMiIHk9IjQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIHJ5PSIyIj48L3JlY3Q+PGxpbmUgeDE9IjE2IiB5MT0iMiIgeDI9IjE2IiB5Mj0iNiI+PC9saW5lPjxsaW5lIHgxPSI4IiB5MT0iMiIgeDI9IjgiIHkyPSI2Ij48L2xpbmU+PGxpbmUgeDE9IjMiIHkxPSIxMCIgeDI9IjIxIiB5Mj0iMTAiPjwvbGluZT48L3N2Zz4='">
                         <p>Your health schedule is clear. Add an event to start improving your routine!</p>
                     </div>
                 </div>
@@ -107,4 +113,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
