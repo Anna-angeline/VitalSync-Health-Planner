@@ -24,7 +24,7 @@ A modern and interactive health event planner web application designed to help u
 <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/7f40661d-b44c-4be9-90df-f238fb0af2fa" />
 
 ## Live Demo
-[View Live Demo](https://anna-angeline.github.io/VitalSync-Health-Planner/)
+https://anna-angeline.github.io/VitalSync-Health-Planner
 
 ## Future Improvements
 - Notifications
