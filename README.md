@@ -24,6 +24,7 @@ A modern and interactive health event planner web application designed to help u
 <img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/7f40661d-b44c-4be9-90df-f238fb0af2fa" />
 
 ## Live Demo
+vital-sync-health-planner.vercel.app
 
 ## Future Improvements
 - Notifications
